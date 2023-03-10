@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="JustinLuuu">
+    <meta name="description" content="Hangedman Game">
+    <link rel="stylesheet" href="styles.css">
+    <title>Hangedman Game</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1>Hangedman Game</h1>
+        <h3 class="title-level">Level 1</h3>
+        <button class="btn-restart">Restart</button>
+    </header>
+
+    <main class="content">
+        <section class="content-app">
+            <header>
+                <h3 class="title-message">Guess the correct word</h3>
+            </header>
+
+            <div style="display: flex;">
+                <form class="form">
+                    <div style="display:flex; align-items:center; justify-content:center">
+                        <input type="text" maxlength="1" class="txtResponse">
+                        <button type="submit" class="btn-add">ADD</button>
+                    </div>
+
+                    <span class="word"></span>
+                    <img src="sources/ball.jpg" alt="ball" id="imgGuess">
+                    <span class="errors">0 errors</span>
+                </form>
+
+                <div class="gallowContainer gallowContainerLg">
+                    <img src="sources/gallow.png" alt="gallow" id="imgGallow">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            <strong>By:</strong> &nbsp;
+            <a href="https://github.com/JustinLuuu" target="_blank">
+                JustinLuuu
+            </a>
+        </p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

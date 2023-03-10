@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+body{
+    padding-top: 15px;
+    background-color: orange;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header .btn-restart {
+    display: none;
+    width: 100px;
+    height: 30px;
+    font-size: large;
+    margin-top: 20px;
+}
+
+h1{ 
+    text-align: center;
+    word-spacing: 3px;
+}
+
+h3{
+    text-align: center;
+}
+
+.title-level {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: underline wavy;
+    text-underline-offset: 4px;
+    padding-top: 7px;
+}
+
+.content {
+    height: 450px;
+    width: 100%;
+    background:white;
+    margin-top: 28px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.content-app h3{
+    font-size: 24px;
+    background-color: green;
+    color:white;
+    padding:5px;
+}
+
+.content-app input, .content-app button{
+    margin-top: 14px;
+    height: 40px;
+}
+
+.content-app input {
+    width: 60px;
+    text-align: center;
+    font-size: 25px;
+    outline: none;
+}
+
+.content-app img{
+    display: block;
+    margin-top: 20px;
+    min-width: 330px;
+    max-width: 330px;
+    min-height: 214px;
+    max-height: 214px;
+}
+
+.content-app #txtResponse, button{
+    height: 24px;
+    text-align: center;
+}
+
+.content-app button{
+    margin-left: 14px;
+    width: 120px;
+}
+
+.content-app .word {
+    display: block;
+    margin-top: 14px;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 7px;
+}
+
+.content-app .errors{
+    margin-left: 108px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: green;
+    color:white;
+    padding: 7px;
+}
+
+.gallowContainer {
+    display: none;
+}
+
+.gallowContainerLg {
+    position: absolute;
+    margin-left: 34%;
+    margin-top: 2%;
+}
+
+.gallowContainer #imgGallow {
+    width: 400px;
+}
+
+footer {
+    text-align: center;
+    padding-top: 25px;
+}
