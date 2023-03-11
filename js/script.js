@@ -34,7 +34,7 @@ function AddLetter(e) {
     Clear();
 
     if (!letter) {
-        WarnMessage('Its only a letter !');
+        WarnMessage('First type a letter !');
         return;
     }
 
